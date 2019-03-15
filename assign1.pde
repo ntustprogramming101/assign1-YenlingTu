@@ -51,11 +51,6 @@ ellipse(590,50,120,120);
   soldierx%=640;//Soldier Movement 
   //Robot
   image(robot,robotx,roboty);
-  //Raser
-  stroke(255,0,0);
-  strokeWeight(10);
-  line(raserx+25- raserSpeedx,rasery,raserx+25- raserSpeedx+min(raserSpeedx,40),rasery);
- raserSpeedx+=2;//Raser Movement
-raserSpeedx%=160;//Raser Movement
+  
 
 }
